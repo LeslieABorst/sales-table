@@ -6,7 +6,11 @@ const Table = (props) => {
         <div>
            <table>
                 <thead>
-
+                    <tr>
+                        <th>Month</th>
+                        <th>Sales</th>
+                        <th>Salesperson</th>
+                    </tr>
                 </thead>
                 <tbody>
                     <tr>
