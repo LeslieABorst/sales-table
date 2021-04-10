@@ -8,10 +8,20 @@ const Sales = () => {
     return (
 
         <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Month</th>
+                        <th>Sales</th>
+                        <th>Salesperson</th>
+                    </tr>
+                </thead>
+                <tbody>
             {tableData.map((value, index) => {
                 return <Table key={index} month={value.month} sales={value.sales} salesperson={value.salesperson} />
             })}
-
+            </tbody>
+           </table>
         </div>
     )
 }
